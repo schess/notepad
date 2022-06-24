@@ -1,4 +1,4 @@
-class child < parent
+class Child < Parent
   def obedient
     false
   end

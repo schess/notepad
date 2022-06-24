@@ -1,7 +1,7 @@
 require_relative 'parents_class'
 require_relative 'childs_class'
-papa = parent.new ('Сергей Валерьевич')
-masha = child.new ('Маша')
-anton = child.new ('Антон')
+papa = Parent.new ('Сергей Валерьевич')
+masha = Child.new ('Маша')
+anton = Child.new ('Антон')
 
-puts "У #{papa.name} послушный #{papa.obedient}"
+puts "У #{papa.name} послушный #{masha.name}"
