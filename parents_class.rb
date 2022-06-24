@@ -1,6 +1,6 @@
 class parent
-  def initialize
-    #todo
+  attr_reader :name
+  def initialize (name)
     @name = name
   end
   def obedient
